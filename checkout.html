@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="pastry.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-left">
+                <label for="category-toggle" class="open-panel-btn">...</label>
+            </div>
+
+            <div class="site-title">Checkout</div>
+
+            <div class="header-right">
+                
+            </div>
+        </div>
+    </header>
+
+    <input type="checkbox" id="category-toggle" hidden>
+<div class="side-panel">
+    <label for="category-toggle" class="close-panel-btn">✕</label>
+
+    <h2 style="color: #c97b63;">Categories</h2>
+    <ul class="category-list">
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="pies.html">Pies</a></li>
+        <li><a href="salty.html">Salty goods</a></li>
+        <li><a href="ordinary.html">Ordinary pastries</a></li>
+    </ul>
+    <h2 style="color: #c97b63">Navigation</h2>
+    <ul class="category-list">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Store</a></li>
+        <li><a href="info.html">Information</a></li>
+    </ul>
+</div>
+
+<body>
+
+<div class="checkout-container">
+
+    <div class="box">
+        <h2>Billing Details</h2>
+
+        <form action="#" method="post">
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com" required>
+
+            <label>Phone</label>
+            <input type="tel" placeholder="123-456-7890">
+
+            <label>Address</label>
+            <input type="text" placeholder="Street address" required>
+
+            <div class="row">
+                <div>
+                    <label class="city">City</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label class="zip">ZIP Code</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <label>Delivery Method</label>
+            <select>
+                <option>Pickup</option>
+                <option>Local Delivery</option>
+            </select>
+
+            <h2 style="margin-top:30px;">Payment Method</h2>
+
+            <label>
+                <input type="radio" name="payment" checked>
+                Credit / Debit Card
+            </label>
+
+            <label>
+                <input type="radio" name="payment">
+                Pay on Pickup
+            </label>
+
+            <label>
+                <input type="radio" name="payment">
+                Cash on Delivery
+            </label>
+
+            <button class="place-order" type="submit">
+                Place Order
+            </button>
+
+        </form>
+    </div>
+
+    <div class="box">
+        <h2>Your Order</h2>
+
+        <div class="order-summary">
+            <div class="summary-item">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="summary-item">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="summary-item">
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="summary-total">
+                <span>Total</span>
+                <span>-----</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2025–2026 Evelin Pastry.com
+</footer>
+
+</body>
+</html>

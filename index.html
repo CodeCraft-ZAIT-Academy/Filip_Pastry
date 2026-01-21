@@ -1,53 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EvelinPastry.com</title>
+    <title>Evelin Pastry</title>
     <link rel="stylesheet" href="pastry.css">
 </head>
 
 <body>
-    <header>
-        <div class="header-inner">
-            <div class="header-left">
-                <a href="account.html"><button class="log-in">Log in</button></a>
-                <a href="cart.html" class="cart-link">
-                    <img class="cart-img" src="cart.png" alt="Cart">
-                    <span class="cart-badge">0</span>
-                </a>
-            </div>
 
-            <div class="site-title">Welcome to EvelinPastry.com!</div>
 
-            <div class="header-right">
-                <a href="services.html">
-                    <button class="services">Services</button>
-                </a>
-
-                <a href="contact.html">
-                    <button class="contact">Contact</button>
-                </a>
-            </div>
-        </div>
-    </header>
-    <div class="middle">
-        <div class="middle-container">
-            <main class="main-panel">
-                <section class="hero">
-                    <div class="hero-actions">
-                        <a href="shop.html" class="btn-primary">Shop</a>
-                        <a href="account.html" class="btn-ghost">Account</a>
-                    </div>
-                </section>
-            </main>
+<header>
+    <div class="header-inner">
+        <div class="header-left">
+            <label for="category-toggle" class="open-panel-btn">...</label>
+            <a href="account.html"><button class="log-in">Log in</button></a>
+            <a href="cart.html"><button class="cart-button">Cart</button></a>
         </div>
 
+        <div class="site-title">Evelin Pastry</div>
+
+        <div class="header-right">
+            <a href="contact.html"><button class="contact">Contact</button></a>
+        </div>
+    </div>
+</header>
+
+<div class="middle">
+
+    <input type="checkbox" id="category-toggle" hidden>
+<div class="side-panel">
+    <label for="category-toggle" class="close-panel-btn">✕</label>
+
+    <h2 style="color: #c97b63;">Categories</h2>
+    <ul class="category-list">
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="pies.html">Pies</a></li>
+        <li><a href="salty.html">Salty goods</a></li>
+        <li><a href="ordinary.html">Ordinary pastries</a></li>
+    </ul>
+    <h2 style="color: #c97b63">Navigation</h2>
+    <ul class="category-list">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Store</a></li>
+        <li><a href="info.html">Information</a></li>
+    </ul>
+</div>
+    
+    <section class="section1">
+        <div class="section-content">
+            
+            <div class="card1" style="text-align:center; font-size:21px;">
+                <h2 style="color: black;">Freshly Baked, Made With Love</h2>
+                <p style="color: black">
+                    Discover handcrafted cakes, pastries, and desserts made fresh every day.
+                    Perfect for celebrations or a sweet moment just for you.
+                </p>
+
+                <div class="actions">
+                    <a href="shop.html" class="start-shopping">Start Shopping</a>
+                </div>
+            </div>
+
+
+            <div class="card2" style="text-align: center; font-size: 21px;">
+                <div class="custom-text">
+                    <h2 style="color: black">Custom Cakes & Pastries</h2>
+                    <p>
+                        Designed to your specifications for any occasion.
+                    </p>
+
+                    <div class="actions">
+                    <a href="custom.html" class="start-shopping">Custom orders</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="section2">
+    <div class="section-content">
+        <div class="card-square">
+            <a href="info.html">
+            <div class="card-square-text" style="font-size: 28px;">
+                 Info<br><br>
+                <span style="font-size:18px; font-weight:normal;">
+                    All our pastries are handmade daily using fresh ingredients.<br>
+                    No preservatives  Family recipes  Baked with love
+                </span>
+            </div>
         
-        <footer>
-            Copyright 2025-2026 by filip. All rights reserved. This site is powered by olivers love.
-        </footer>
-</body>
+        </div>
+    </a>
+    </div>
+    </section>
 
+</div>
+
+<footer>
+    © 2025-2026 EvelinPastry.com
+</footer>
+
+</body>
 </html>

@@ -9,14 +9,53 @@
 </head>
 
 <body>
-    <div class=main>
-        <div class=inner-main>
+    <header>
+        <div class="header-inner">
+            <div class="header-left">
+               <label for="category-toggle" class="open-panel-btn">...</label>
+            </div>
+
+            <div class="site-title">Sing up</div>
+
+            <div class="header-right">
+                
+            </div>
+        </div>
+    </header>
+
+    <input type="checkbox" id="category-toggle" hidden>
+<div class="side-panel">
+    <label for="category-toggle" class="close-panel-btn">✕</label>
+
+    <h2 style="color: #c97b63;">Categories</h2>
+    <ul class="category-list">
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="pies.html">Pies</a></li>
+        <li><a href="salty.html">Salty goods</a></li>
+        <li><a href="ordinary.html">Ordinary pastries</a></li>
+    </ul>
+    <h2 style="color: #c97b63">Navigation</h2>
+    <ul class="category-list">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Store</a></li>
+        <li><a href="info.html">Information</a></li>
+    </ul>
+</div>
+    
+    <div class="main-signup">
+        <div class="inner-main-signup">
             <h1>Create your account</h1>
             <input class="username" type="text" placeholder="Username" class="input-field">
             <input class="email" type="text" placeholder="E-mail" class="input-field">
             <input class="password" type="password" placeholder="Password" class="input-field">
             <button class="signup-button">Sign Up</button>
             <p>Already have an account? <a href="account.html">Login</a></p>
+        </div>
+    </div>
+            <footer>
+                © 2025-2026 EvelinPastry.com
+            </footer>
 </body>
-
 </html>

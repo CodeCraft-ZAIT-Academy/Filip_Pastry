@@ -7,11 +7,52 @@
     <link rel="stylesheet" href="pastry.css">
 </head>
 <body>
-    <div class = main-contact>
-        <div class = inner-main-contact>
-            <h1>Contact us on this email or number if you have an issues or a feedback>></h1>
-            <p>Email: gg</p>
-            <p>Phone number: gg</p>
+    <header>
+        <div class="header-inner">
+            <div class="header-left">
+                <label for="category-toggle" class="open-panel-btn">...</label>
+            </div>
+
+            <div class="site-title">Contact information</div>
+
+            <div class="header-right">
+                
+            </div>
+        </div>
+    </header>
+
+    <input type="checkbox" id="category-toggle" hidden>
+<div class="side-panel">
+    <label for="category-toggle" class="close-panel-btn">✕</label>
+
+    <h2 style="color: #c97b63;">Categories</h2>
+    <ul class="category-list">
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="pies.html">Pies</a></li>
+        <li><a href="salty.html">Salty goods</a></li>
+        <li><a href="ordinary.html">Ordinary pastries</a></li>
+    </ul>
+    <h2 style="color: #c97b63">Navigation</h2>
+    <ul class="category-list">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Store</a></li>
+        <li><a href="info.html">Information</a></li>
+    </ul>
+</div>
+    
+    <div class="main-contact">
+        <div class="inner-main-contact">
+            <h1>Contact us through e-mail</h1>
+            <input class="username" type="text" placeholder="Describe the problem" class="input-field">
+            <input class="mail" type="password" placeholder="Enter e-mail" class="input-field">
+            <button class="send-button">send</button>
+            
+        </div>
     </div>
+     <footer>
+           © 2025-2026 EvelinPastry.com
+        </footer>
 </body>
 </html>

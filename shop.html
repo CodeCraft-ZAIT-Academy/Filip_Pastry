@@ -1,86 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shop</title>
 </head>
 <link rel="stylesheet" href="pastry.css">
+
 <body>
     <header>
         <div class="header-inner">
             <div class="header-left">
-                <a href="account.html"><button class="log-in">Log in</button></a>
-                <a href="cart.html" class="cart-link">
-                    <img class="cart-img" src="cart.png" alt="Cart">
-                    <span class="cart-badge">3</span>
-                </a>
+                <label for="category-toggle" class="open-panel-btn">...</label>
             </div>
 
-            <div class="site-title">Welcome to EvelinPastry.com!</div>
+            <div class="site-title">Shop</div>
 
             <div class="header-right">
-                <a href="services.html">
-                    <button class="services">Services</button>
-                </a>
-
-                <a href="contact.html">
-                    <button class="contact">Contact</button>
-                </a>
+                
             </div>
         </div>
     </header>
-    
+
+    <input type="checkbox" id="category-toggle" hidden>
+<div class="side-panel">
+    <label for="category-toggle" class="close-panel-btn">✕</label>
+
+    <h2 style="color: #c97b63;">Categories</h2>
+    <ul class="category-list">
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="pies.html">Pies</a></li>
+        <li><a href="salty.html">Salty goods</a></li>
+        <li><a href="ordinary.html">Ordinary pastries</a></li>
+    </ul>
+    <h2 style="color: #c97b63">Navigation</h2>
+    <ul class="category-list">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Store</a></li>
+        <li><a href="info.html">Information</a></li>
+    </ul>
+</div>
+
+    </div>
+
     <div class="main-shop">
-        <div class="shop-cards">
-            <div class="card product-card">
-                <h2>Cakes</h2>
-                <p></p>
-                <div class="card-actions">
-                    <a href="cakes.html">
-                    <button class="cta">Browse</button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="card product-card">
-                <h2>Fruit Goods</h2>
-                <p></p>
-                <div class="card-actions">
-                    <a href="fruit.html">
-                        <button class="cta">Browse</button>
-                    </a>
-                    </div>
-                    
-            </div>
-
-            <div class="card product-card">
-                <h2>Pies</h2>
-                <p></p>
-                <div class="card-actions">
-                    <a href="pies.html">
-                        <button class="cta">Browse</button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="card product-card">
-                <h2>Salty goods</h2>
-                <p></p>
-                <div class="card-actions">
-                    <a href ="Salty.html">
-                        <button class="cta">Browse</button>
-                    </a>
-                </div>
-            </div>
-
         
+        <div class="shop-cards0">
+            <div class="card product-card">
+                <div class="cakes-card">
+                    <a href ="cakes.html">
+                        <img class ="cake-img" src="../cakes.jpg" alt="">
+                    </a>
+                    <div class = "pastry-info-shop">
+                        <p class = "pastry-text">Cakes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card product-card">
+                <div class="cakes-card">
+                    <a href ="pies.html">
+                        <img class ="cake-img" src="../pies.jpg" alt="">
+                    </a>
+                    <div class = "pastry-info-shop">
+                        <p class = "pastry-text">Pies</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card product-card">
+                <div class="cakes-card">
+                    <a href ="salty.html">
+                        <img class ="cake-img" src="../salty.jpg" alt="">
+                    </a>
+                    <div class = "pastry-info-shop">
+                        <p class = "pastry-text">Salty goods</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card product-card">
+                <div class="cakes-card">
+                    <a href ="ordinary.html">
+                        <img class ="cake-img" src="../bread.jpg" alt="">
+                    </a>
+                    <div class = "pastry-info-shop">
+                        <p class = "pastry-text">Ordinary pastries</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    </div>
 
     <footer>
-            Copyright 2025-2026 by filip. All rights reserved. This site is powered by olivers love.
-        </footer>
+        © 2025-2026 EvelinPastry.com
+    </footer>
 </body>
+
 </html>

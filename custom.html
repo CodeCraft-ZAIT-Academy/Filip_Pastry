@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Orders | Evelin Pastry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pastry.css">
+
+    
+</head>
+
+<div class="body1">
+
+<header>
+    Custom Orders
+</header>
+
+<label for="category-toggle" class="open-panel-btn">...</label>
+<input type="checkbox" id="category-toggle" hidden>
+<div class="side-panel">
+    <label for="category-toggle" class="close-panel-btn">✕</label>
+
+    <h2 style="color: #c97b63;">Categories</h2>
+    <ul class="category-list">
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="pies.html">Pies</a></li>
+        <li><a href="salty.html">Salty goods</a></li>
+        <li><a href="ordinary.html">Ordinary pastries</a></li>
+    </ul>
+    <h2 style="color: #c97b63">Navigation</h2>
+    <ul class="category-list">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Store</a></li>
+        <li><a href="info.html">Information</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <h2>Design Your Perfect Treat</h2>
+    <p>
+        Fill out the form below and we’ll contact you to confirm your custom bakery order.
+    </p>
+
+    <form action="#" method="post">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="you@example.com" required>
+
+        <label>Order Type</label>
+        <select required>
+            <option value="">Select an option</option>
+            <option>Cake</option>
+            <option>Cupcakes</option>
+            <option>Pastries</option>
+            <option>Cookies</option>
+            <option>Other</option>
+        </select>
+
+        <label>Size</label>
+        <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+        </select>
+
+        <label>Flavor</label>
+        <input type="text" placeholder="Chocolate, vanilla, strawberry...">
+
+        <label>Filling</label>
+        <input type="text" placeholder="Cream, fruit, ganache...">
+
+        <label>Event Date</label>
+        <input type="date" required>
+
+        <label>Decoration Style</label>
+        <div class="radio-group">
+            <label><input type="radio" name="style"> Simple</label>
+            <label><input type="radio" name="style"> Elegant</label>
+            <label><input type="radio" name="style"> Themed</label>
+        </div>
+
+        <label>Additional Notes</label>
+        <textarea placeholder="Colors, message on cake, allergies, inspiration..."></textarea>
+
+        <button class="submit-btn" type="submit">
+            Submit Custom Order
+        </button>
+
+    </form>
+</div>
+
+<footer>
+    © 2025-2026 EvelinPastry.com
+</footer>
+
+</div>
+</html>
